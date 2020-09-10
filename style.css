@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 + nav {
+  margin: 5px 10px 15px 10px;
+  border: 1.5px black solid;
+  padding: 0;
+}
+
+.Nav_top {
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 10px 0px 20px;
+}
