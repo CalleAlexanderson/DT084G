@@ -3,8 +3,55 @@
   padding: 0;
 }
 
-h1 + nav {
-  margin: 5px 10px 15px 10px;
-  border: 1.5px black solid;
+nav {
+  font-family: "Assistant", sans-serif;
+  background-color: black;
+  padding: 15px;
+  text-align: left;
+}
+
+h1 {
+  font-family: "Old Standard TT", serif;
+  margin-top: 20px;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+li {
+  font-family: "Roboto Slab", serif;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: black;
+  padding: 30px 20px 10px 30px;
+  text-align: center;
+}
+
+a {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: whitesmoke;
+}
+
+.a_text {
+  color: black;
   padding: 0;
+  margin: 0;
+}
+
+table {
+  display: flex;
+  justify-content: space-around;
+}
+
+#Titel {
+  text-align: center;
 }
