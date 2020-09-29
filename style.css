@@ -81,3 +81,12 @@ td {
   border: black;
   border-style: solid;
 }
+
+.beskriv {
+  text-align: center;
+  text-size-adjust: 50px;
+}
+
+.djur {
+  margin-top: 3px;
+}
