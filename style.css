@@ -12,14 +12,22 @@ nav {
 
 h1 {
   font-family: "Old Standard TT", serif;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+h3 {
+  font-family: "Old Standard TT", serif;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 
 p {
   font-family: "Roboto Slab", serif;
   margin-top: 20px;
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 20px;
+  line-height: 1.5;
 }
 
 li {
@@ -47,11 +55,29 @@ a {
   margin: 0;
 }
 
-table {
+li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.nav {
+  text-align: center;
+}
+
+.block {
+  display: block;
+  width: 50%;
+}
+
+.titel {
+  text-align: center;
+}
+
+.table {
   display: flex;
   justify-content: space-around;
 }
-
-#Titel {
-  text-align: center;
+td {
+  border: black;
+  border-style: solid;
 }
