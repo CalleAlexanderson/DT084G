@@ -7,10 +7,10 @@ nav {
   font-family: "Assistant", sans-serif;
   background-color: black;
   padding: 15px;
-  text-align: left;
+  text-align: center;
 }
 
-h1 {
+h2 {
   font-family: "Old Standard TT", serif;
   margin-top: 40px;
   margin-left: 10px;
@@ -42,17 +42,13 @@ footer {
 }
 
 a {
-  margin-left: 40px;
-  margin-right: 40px;
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-between;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 10px;
   color: whitesmoke;
-}
-
-.a_text {
-  color: black;
-  padding: 0;
-  margin: 0;
 }
 
 li {
@@ -60,25 +56,19 @@ li {
   margin-right: 5px;
 }
 
-.nav {
-  text-align: center;
-}
-
-.block {
-  display: block;
-  width: 50%;
-}
-
-.titel {
-  text-align: center;
-}
-
-.table {
+table {
+  border-collapse: collapse;
   display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  max-width: 100%;
+  border-spacing: 0;
   justify-content: space-around;
 }
+
 td {
   border: black;
+
   border-style: solid;
 }
 
@@ -89,4 +79,31 @@ td {
 
 .djur {
   margin-top: 3px;
+}
+
+.a_text {
+  color: black;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+.block {
+  display: block;
+  width: 50%;
+}
+
+.titel {
+  text-align: center;
+  font-family: "Old Standard TT", serif;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.table {
+  overflow-x: inherit;
+}
+
+.ull_läder {
+  text-align: center;
 }
