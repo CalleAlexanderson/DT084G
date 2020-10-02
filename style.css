@@ -90,7 +90,7 @@ td {
 
 .block {
   display: block;
-  width: 50%;
+  width: 90%;
 }
 
 .titel {
@@ -106,4 +106,12 @@ td {
 
 .ull_läder {
   text-align: center;
+}
+
+.bild {
+  max-height: 300px;
+}
+
+.td_text {
+  border-style: hidden;
 }
