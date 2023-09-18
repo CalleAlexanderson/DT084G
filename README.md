@@ -7,4 +7,4 @@
 + List of leathers.html
 + style.css
 
-**kommandot som används för att klona repository till din dator:** dsadas
+**kommandot som används för att klona repository till din dator:** "git clone git clone https://github.com/CalleAlexanderson/DT084G.git"
